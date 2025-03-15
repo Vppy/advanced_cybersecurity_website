@@ -1,0 +1,567 @@
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowTracetech - Advanced Cybersecurity Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a0708f78e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <div id="particles-js" style="position:fixed; top:0; left:0; width:100%; height:100%; z-index:-10;"></div>
+    <header class="main-header">
+        <nav>
+            <div class="logo">
+                <svg width="60" height="40" viewBox="0 0 60 40">
+                    <path d="M10,30 L25,10 L40,30" stroke="var(--primary)" stroke-width="4" fill="none"/>
+                    <path d="M20,30 L30,15 L40,30" stroke="var(--secondary)" stroke-width="4" fill="none"/>
+                </svg>
+                <span>ShadowTracetech</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html#clients">Clients</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="contact-button">Get Started</button>
+                <div class="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="pattern-overlay"></div>
+            <div class="image-slider">
+                <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+                <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="animate-up glitch-text" data-text="Securing Tomorrow's Digital Frontier">Securing Tomorrow's Digital Frontier</h1>
+            <p class="animate-up delay-1">Advanced threat intelligence and cyber defense solutions powered by quantum-resistant algorithms and neural networks</p>
+            <div class="terminal-container animate-up delay-2" style="margin-bottom: 1.5rem; font-family: 'Courier New', monospace; color: #00FF66; background: rgba(0,0,0,0.7); padding: 1rem; border-radius: 4px; border: 1px solid rgba(0,255,102,0.3); box-shadow: 0 0 10px rgba(0,255,102,0.3);">
+                <div style="display: flex; margin-bottom: 0.5rem;">
+                    <div style="color: #FF00AA; margin-right: 0.5rem;">root@shadowtrace:~$</div>
+                    <div class="typewriter" style="overflow: hidden; border-right: 0.15em solid #00FF66; white-space: nowrap; animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;">initiating_security_protocol...</div>
+                </div>
+                <div>
+                    <span style="color: #0DD3FF;">[SYSTEM]</span> Threat detection active... <span style="color: #00FF66;">SECURE</span>
+                </div>
+            </div>
+            <div class="threat-counter">
+                <div class="counter-item">
+                    <span class="counter-value" id="threatCounter">0</span>
+                    <span class="counter-label">Threats Neutralized Today</span>
+                </div>
+            </div>
+            <div class="hero-buttons animate-up delay-3">
+                <button class="primary-button glow-button">
+                    Get Started
+                    <svg class="button-icon" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="hero-stats animate-up delay-4">
+                <div class="stat">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Enterprise Clients</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">99.9%</span>
+                    <span class="stat-label">Threat Detection</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Security Monitoring</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual animate-up">
+            <div class="security-grid">
+                <svg width="500" height="400" viewBox="0 0 500 400" class="security-animation">
+                    <defs>
+                        <linearGradient id="grid-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.2"/>
+                            <stop offset="100%" stop-color="var(--secondary)" stop-opacity="0.1"/>
+                        </linearGradient>
+                        <filter id="glow">
+                            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                            <feMerge>
+                                <feMergeNode in="coloredBlur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g class="grid-pattern"></g>
+                    <g class="security-nodes"></g>
+                    <g class="connection-lines"></g>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="trusted-by">
+        <div class="section-heading" data-aos="fade-up">
+            <h2>Trusted by Industry Leaders</h2>
+            <p>Our cybersecurity solutions protect businesses across all sectors</p>
+        </div>
+        <div class="client-logos" data-aos="fade-up" data-aos-delay="200">
+            <div class="logo-item"><i class="fab fa-microsoft"></i> Microsoft</div>
+            <div class="logo-item"><i class="fab fa-aws"></i> Amazon</div>
+            <div class="logo-item"><i class="fab fa-google"></i> Google</div>
+            <div class="logo-item"><i class="fab fa-apple"></i> Apple</div>
+            <div class="logo-item"><i class="fab fa-facebook"></i> Facebook</div>
+        </div>
+    </section>
+
+    <section class="threat-map-section">
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-tag">Global Protection</span>
+            <h2>Real-Time Threat Intelligence</h2>
+            <p>Monitoring and neutralizing cyber threats worldwide</p>
+        </div>
+        <div class="map-container" data-aos="zoom-in">
+            <div class="world-map">
+                <svg viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet">
+                    <!-- World map path -->
+                    <path d="M211.2,68.3c-6.5,2.6-13.3,5.4-16.8,7.7c-5.7,3.6-5.7,3.8-5.7,17.9c0,11.4-0.6,14.8-2.6,18.7c-1.4,2.6-6.7,8.5-11.6,13.1l-9,8.3v20.5v20.4l10.9,10.8l10.9,10.8v11.7c0,6.5,0.6,12,1.3,12.3c0.8,0.3,15.2,4.9,32.1,10.2l30.8,9.7l17.9-8.1c9.8-4.5,20.2-8.7,23.1-9.4c4.7-1.2,8.9-0.6,25.7,3.6c11,2.7,21.7,4.9,23.7,4.9c2.3,0,15.2-5.1,32.1-12.7l28.4-12.7l18.1,6c9.9,3.3,20.1,6,22.6,6c2.5,0,9.4-2,15.4-4.4l10.9-4.5l12,5.7c10.7,5.1,12.8,5.7,21.1,5.7c8.5,0,10.2-0.6,19.8-6.6c5.8-3.6,15.2-9,20.8-12c9.7-5.2,10.2-5.3,17.5-3.9c4.1,0.8,8.4,1.5,9.4,1.5c1.1,0,2.3,1.2,2.7,2.7c0.4,1.5,1.8,3.9,3,5.5c1.7,2.1,4.9,3.2,15.1,5.2c7.2,1.4,14.7,3.4,16.8,4.4c2.1,1,4.3,1.8,4.9,1.8c0.6,0,1.1,0.5,1.1,1.1c0,0.6,2.9,2.1,6.5,3.3c-3.6,1.2,9.5,4.1,13,6.4c-3.6,2.3,9.1,5,12.4,6c-3.2,1,9.1,3.6,13,5.7c-3.9,2.1,9.5,4.8,12.5,6c-3,1.2,7.3,3.5,9.5,5.1c2.3,1.6,7.8,3.9,12.4,5.1c-4.5,1.2,10.6,3.8,13.6,5.6c-3,1.9,7.8,4.3,10.6,5.4c-3.7,1.4,6.6,3.8,10.6,8.6c-2.9,3.5,5.7,6.7,6.2,7.2c-0.6,0.4,3.9,5.1,7.4,10.4l-6.4,9.6l-9.2-0.3c-9.1-0.3,9.2-0.3,13.7,3.3c-2.5,2,6.6,4.1,9.1,4.8c-2.5,0.7,5.9,2.6,7.5,4.2c-1.6,1.6,6.4,4.9,10.6,7.3c-11.4,6.5,26.8,18.2,30.6,23.1c-1.8,2.3,5.1,5.7,7.3,7.6c-5.2,4.4,17.8,22.6,17.8,25.6c0,1.3,1.3,6.3,2.9,11.2c-2.9,8.9,2.9,8.9,7.2,9.5c-2.3,0.3,6.4,0.9,9.1,1.2c-2.7,0.3,6.7,1.5,8.8,2.6c-2.1,1.1,5.8,2,8.1,2c-2.3,0,6,0.7,8.1,1.5c-2.1,0.8,8.2,1.9,13.6,2.5c-5.3,0.6,13.8,2.3,18.7,3.9c-8.3,2.7,9.1,2.8,17.6,1.6c-4.9,0.7,11.9,1.3,15.5,1.3c-6,0.1,6.6,0.2,10.8,3.8c-2.5,2.1,4.6,4.2,4.8,4.7c-0.6,1.8,14.6,8.1,22.7,10.3c-4.3,1.2,12.1,3.5,17.3,5.2c-5.2,1.6,11.8,3.5,14.6,4.2c-4,0.9,6.4,2.3,9.8,5.8c-4.8,4.9,6.7,5.8,16.4,8.1c-4.6,1.1,9.4,1.6,13.7,1.3c-5.7,0.4,7.1,0.1,15.6,3.7c-5.2,2.3,11.2,4.4,13.5,4.8c-6.4,0.9,16.5,4.1,18.4,5.9c-1,0.9,4.9,2.2,8.7,2.9c-3.8,0.7,8.9,2.1,11.3,3.2c-2.5,1,8.4,2.8,13.3,4c-4.9,1.2,11.4,3.5,14.5,5.2c-3.1,1.7,7.8,3.7,10.4,4.6C225.1,63.8,218.8,65.1,211.2,68.3z" stroke="var(--primary)" stroke-width="1" fill="rgba(10, 30, 45, 0.4)"/>
+                    <!-- Random activity nodes -->
+                    <circle class="activity-node" cx="420" cy="150" r="4" fill="var(--accent)" filter="url(#glow)"/>
+                    <circle class="activity-node" cx="300" cy="200" r="3" fill="#FF0055" filter="url(#glow)"/>
+                    <circle class="activity-node" cx="650" cy="180" r="5" fill="var(--primary)" filter="url(#glow)"/>
+                    <circle class="activity-node" cx="150" cy="250" r="4" fill="var(--secondary)" filter="url(#glow)"/>
+                    <circle class="activity-node" cx="780" cy="220" r="3" fill="#FF0055" filter="url(#glow)"/>
+                    <circle class="activity-node" cx="500" cy="300" r="4" fill="var(--primary)" filter="url(#glow)"/>
+                    <circle class="activity-node" cx="250" cy="150" r="3" fill="var(--accent)" filter="url(#glow)"/>
+                </svg>
+            </div>
+            <div class="threat-stats">
+                <div class="stat-box">
+                    <div class="stat-value">143,752</div>
+                    <div class="stat-label">Attacks Blocked</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value">37</div>
+                    <div class="stat-label">Countries Protected</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value">24/7</div>
+                    <div class="stat-label">Real-time Monitoring</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-tag">Core Features</span>
+            <h2>Comprehensive Security Solutions</h2>
+            <p>Protection that evolves with emerging threats</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" class="animated-icon">
+                        <circle cx="32" cy="32" r="30" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                        <path d="M32,16 L32,32 L42,42" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="32" cy="32" r="4" fill="var(--primary)"/>
+                    </svg>
+                </div>
+                <h3>AI-Powered Protection</h3>
+                <p>Advanced threat detection using machine learning algorithms to predict and prevent attacks before they happen</p>
+                <a href="#" class="learn-more">Learn More <span>→</span></a>
+            </div>
+            
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" class="animated-icon">
+                        <rect x="12" y="16" width="40" height="32" rx="4" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                        <path d="M12,26 L52,26" stroke="var(--primary)" stroke-width="2"/>
+                        <circle cx="20" cy="21" r="2" fill="var(--primary)"/>
+                        <circle cx="27" cy="21" r="2" fill="var(--primary)"/>
+                    </svg>
+                </div>
+                <h3>Endpoint Security</h3>
+                <p>Comprehensive protection for all your devices with real-time scanning and automatic remediation</p>
+                <a href="#" class="learn-more">Learn More <span>→</span></a>
+            </div>
+            
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" class="animated-icon">
+                        <path d="M32,12 L44,20 L44,36 L32,44 L20,36 L20,20 Z" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                        <circle cx="32" cy="28" r="6" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3>Quantum Encryption</h3>
+                <p>Future-proof data protection using quantum-resistant algorithms to safeguard against emerging threats</p>
+                <a href="#" class="learn-more">Learn More <span>→</span></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-tag">Process</span>
+            <h2>How We Protect You</h2>
+            <p>Our comprehensive security approach</p>
+        </div>
+        <div class="process-timeline" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg viewBox="0 0 64 64">
+                        <circle cx="32" cy="32" r="30" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                        <text x="32" y="38" font-family="Arial, sans-serif" font-size="24" fill="var(--primary)" text-anchor="middle">1</text>
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <h3>Assessment</h3>
+                    <p>We analyze your current security posture to identify vulnerabilities and gaps</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg viewBox="0 0 64 64">
+                        <circle cx="32" cy="32" r="30" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                        <text x="32" y="38" font-family="Arial, sans-serif" font-size="24" fill="var(--primary)" text-anchor="middle">2</text>
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <h3>Strategy</h3>
+                    <p>Our experts develop a tailored security plan aligned with your business objectives</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg viewBox="0 0 64 64">
+                        <circle cx="32" cy="32" r="30" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                        <text x="32" y="38" font-family="Arial, sans-serif" font-size="24" fill="var(--primary)" text-anchor="middle">3</text>
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <h3>Implementation</h3>
+                    <p>We deploy cutting-edge security solutions with minimal disruption to your operations</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <svg viewBox="0 0 64 64">
+                        <circle cx="32" cy="32" r="30" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                        <text x="32" y="38" font-family="Arial, sans-serif" font-size="24" fill="var(--primary)" text-anchor="middle">4</text>
+                    </svg>
+                </div>
+                <div class="timeline-content">
+                    <h3>Monitoring</h3>
+                    <p>24/7 continuous threat monitoring and incident response to protect your assets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-studies">
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-tag">Success Stories</span>
+            <h2>Real Impact, Real Results</h2>
+            <p>See how our cybersecurity solutions have protected organizations worldwide</p>
+        </div>
+        <div class="case-studies-slider" data-aos="fade-up" data-aos-delay="200">
+            <div class="case-study-card active">
+                <div class="case-study-image">
+                    <img src="https://images.unsplash.com/photo-1573164713712-03790a178651?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Financial Services Case Study">
+                </div>
+                <div class="case-study-content">
+                    <h3>Global Financial Services</h3>
+                    <p>Prevented a sophisticated ransomware attack, saving over $14M in potential losses</p>
+                    <div class="case-study-stats">
+                        <div class="stat-item">
+                            <span class="value">99.9%</span>
+                            <span class="label">Attack Prevention</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="value">45%</span>
+                            <span class="label">Cost Reduction</span>
+                        </div>
+                    </div>
+                    <a href="#" class="learn-more">Read Case Study <span>→</span></a>
+                </div>
+            </div>
+            <div class="case-study-nav">
+                <button class="nav-dot active"></button>
+                <button class="nav-dot"></button>
+                <button class="nav-dot"></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-showcase">
+        <div class="section-heading" data-aos="fade-up">
+            <span class="section-tag">Innovation</span>
+            <h2>Cutting-Edge Technology</h2>
+            <p>Powered by advanced cybersecurity innovations</p>
+        </div>
+        <div class="tech-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="tech-visual">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="window-title">threat_analysis.py</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code>import neural_shield
+from quantum_crypto import QuantumKey
+from threat_intel import ThreatScanner
+
+class ThreatDefense:
+    def __init__(self):
+        self.scanner = ThreatScanner()
+        self.key = QuantumKey.generate()
+        self.shield = neural_shield.deploy()
+        
+    def analyze_threat(self, data_stream):
+        vectors = self.scanner.identify_vectors(data_stream)
+        if vectors.threat_score > 0.75:
+            self.shield.block(vectors.source_ip)
+            return self.encrypt_report(vectors)
+            
+    def encrypt_report(self, report):
+        return self.key.encrypt(report.to_json())
+
+# Initializing protection
+defense = ThreatDefense()
+defense.monitor(network_traffic=True, endpoints=True)
+</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-features">
+                <div class="tech-feature">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M12,3 L21,8 L21,16 L12,21 L3,16 L3,8 L12,3 Z" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="3" fill="var(--primary)"/>
+                        </svg>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Quantum-Resistant Encryption</h3>
+                        <p>Secure against quantum computing attacks</p>
+                    </div>
+                </div>
+                <div class="tech-feature">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M3,12 C3,7 7,3 12,3 C17,3 21,7 21,12 C21,17 17,21 12,21 C7,21 3,17 3,12 Z" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                            <path d="M8,12 C8,9.8 9.8,8 12,8 C14.2,8 16,9.8 16,12 C16,14.2 14.2,16 12,16 C9.8,16 8,14.2 8,12 Z" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="2" fill="var(--primary)"/>
+                        </svg>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Neural Network Defense</h3>
+                        <p>Self-learning threat detection systems</p>
+                    </div>
+                </div>
+                <div class="tech-feature">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <rect x="3" y="6" width="18" height="12" rx="2" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                            <line x1="3" y1="10" x2="21" y2="10" stroke="var(--primary)" stroke-width="2"/>
+                            <circle cx="7" cy="8" r="1" fill="var(--primary)"/>
+                        </svg>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Zero-Day Exploit Prevention</h3>
+                        <p>Protection against unknown vulnerabilities</p>
+                    </div>
+                </div>
+                <div class="tech-feature">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M4,4 L20,4 L20,20 L4,20 Z" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                            <path d="M4,4 L20,20 M4,20 L20,4" fill="none" stroke="var(--primary)" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Behavioral Analysis</h3>
+                        <p>Identifies anomalous patterns in real-time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-background">
+            <div class="image-overlay" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+        </div>
+        <div class="cta-content" data-aos="fade-up">
+            <h2>Ready to Secure Your Digital Assets?</h2>
+            <p>Get a personalized security assessment today</p>
+            <button class="primary-button glow-button">Schedule Consultation</button>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <svg width="40" height="30" viewBox="0 0 60 40">
+                        <path d="M10,30 L25,10 L40,30" stroke="#0066cc" stroke-width="4" fill="none"/>
+                        <path d="M20,30 L30,15 L40,30" stroke="#00aaff" stroke-width="4" fill="none"/>
+                    </svg>
+                    <span>ShadowTracetech</span>
+                </div>
+                <p>Advanced cybersecurity solutions for the modern digital landscape.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Solutions</h3>
+                <ul>
+                    <li><a href="#">Threat Intelligence</a></li>
+                    <li><a href="#">Endpoint Security</a></li>
+                    <li><a href="#">Network Defense</a></li>
+                    <li><a href="#">Cloud Security</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News & Press</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Webinars</a></li>
+                    <li><a href="#">White Papers</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 ShadowTracetech Cybersecurity. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeSecurityAnimation();
+            initializeHeroImageSlider();
+            initializeThreatCounter();
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: false
+            });
+        });
+
+        function initializeSecurityAnimation() {
+            const svg = document.querySelector('.security-animation');
+            const gridPattern = svg.querySelector('.grid-pattern');
+            const securityNodes = svg.querySelector('.security-nodes');
+            const connectionLines = svg.querySelector('.connection-lines');
+
+            for(let i = 0; i < 10; i++) {
+                for(let j = 0; j < 10; j++) {
+                    const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+                    rect.setAttribute('x', i * 50);
+                    rect.setAttribute('y', j * 40);
+                    rect.setAttribute('width', 48);
+                    rect.setAttribute('height', 38);
+                    rect.setAttribute('rx', 4);
+                    rect.setAttribute('fill', 'none');
+                    rect.setAttribute('stroke', 'var(--primary)');
+                    rect.setAttribute('stroke-opacity', '0.1');
+                    gridPattern.appendChild(rect);
+                }
+            }
+
+            for(let i = 0; i < 5; i++) {
+                const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                circle.setAttribute('cx', Math.random() * 400 + 50);
+                circle.setAttribute('cy', Math.random() * 300 + 50);
+                circle.setAttribute('r', 8);
+                circle.setAttribute('fill', 'var(--primary)');
+                circle.setAttribute('filter', 'url(#glow)');
+                securityNodes.appendChild(circle);
+            }
+
+            animateSecurityElements();
+        }
+
+        function animateSecurityElements() {
+            const nodes = document.querySelectorAll('.security-nodes circle');
+            nodes.forEach(node => {
+                node.style.animation = `pulse 2s infinite ${Math.random() * 2}s`;
+            });
+            
+            // Animate activity nodes on the map
+            const activityNodes = document.querySelectorAll('.activity-node');
+            activityNodes.forEach(node => {
+                node.style.animation = `pulse 2s infinite ${Math.random() * 3}s`;
+            });
+        }
+        
+        function initializeHeroImageSlider() {
+            const slides = document.querySelectorAll('.image-slider .slide');
+            let currentSlide = 0;
+            
+            function nextSlide() {
+                slides[currentSlide].classList.remove('active');
+                currentSlide = (currentSlide + 1) % slides.length;
+                slides[currentSlide].classList.add('active');
+            }
+            
+            setInterval(nextSlide, 5000);
+        }
+        
+        function initializeThreatCounter() {
+            const counter = document.getElementById('threatCounter');
+            let count = 0;
+            const targetCount = 12458;
+            const duration = 3000; // 3 seconds
+            const interval = 50; // Update every 50ms
+            const increment = Math.ceil(targetCount / (duration / interval));
+            
+            const timer = setInterval(() => {
+                count += increment;
+                if (count >= targetCount) {
+                    clearInterval(timer);
+                    count = targetCount;
+                }
+                counter.textContent = count.toLocaleString();
+            }, interval);
+        }
+    </script>
+</body>
+</html>
