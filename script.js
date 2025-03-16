@@ -521,6 +521,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const scanner = document.createElement('div');
         scanner.className = 'scanner-line';
         document.body.appendChild(scanner);
+
+         // Remove the scanner element after the animation completes
+         scanner.addEventListener('animationend', () => {
+            scanner.remove();
+        });
     }
     
     // Add glowing effect to icons and buttons

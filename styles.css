@@ -1373,7 +1373,7 @@ input:checked ~ .theme-icon {
     .footer-bottom {
         flex-direction: column;
         text-align: center;
-    }
+    }    
     
     .service-categories {
         grid-template-columns: repeat(2, 1fr);
@@ -1580,7 +1580,7 @@ img {
     border: 1px solid rgba(0, 255, 102, 0.3);
     box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
     letter-spacing: 2px;
-    position: fixed; /* Position it fixed within the viewport */
+    position: absolute ; /* Position it fixed within the viewport */
     bottom: 1rem; /* Distance from the bottom of the viewport */
     right: 1rem; /* Distance from the right of the viewport */
     z-index: 1000; /* Ensure it appears above other elements */
@@ -1618,7 +1618,7 @@ img {
     background: linear-gradient(90deg, transparent, var(--primary), transparent);
     z-index: 1;
     box-shadow: 0 0 15px 2px var(--primary);
-    animation: scan 3s linear infinite;
+    animation: scan 3s linear forwards;
 }
 
 @keyframes scan {
