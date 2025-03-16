@@ -933,7 +933,7 @@ footer:before {
 
 .process-number {
     position: absolute;
-    top: -30px;
+    top: 12px;
     left: 50%;
     transform: translateX(-50%);
     width: 60px;
@@ -1580,6 +1580,10 @@ img {
     border: 1px solid rgba(0, 255, 102, 0.3);
     box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
     letter-spacing: 2px;
+    position: fixed; /* Position it fixed within the viewport */
+    bottom: 1rem; /* Distance from the bottom of the viewport */
+    right: 1rem; /* Distance from the right of the viewport */
+    z-index: 1000; /* Ensure it appears above other elements */
 }
 
 /* Matrix rain effect */
@@ -2551,7 +2555,7 @@ img {
 
 .contact-text h3 {
     margin-bottom: 0.5rem;
-    color: var(--dark);
+    color: var(--text-light);
 }
 
 [data-theme="dark"] .contact-text h3 {
@@ -2605,7 +2609,7 @@ img {
 
 .form-group label {
     font-weight: 500;
-    color: var(--dark);
+    color: var(--text-light);
 }
 
 [data-theme="dark"] .form-group label {
@@ -2742,7 +2746,7 @@ img {
 
 .office-location p {
     margin: 0;
-    color: var(--dark-gray);
+    color: var(--primary-light);
 }
 
 [data-theme="dark"] .office-location p {
